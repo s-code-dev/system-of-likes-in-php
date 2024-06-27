@@ -1,0 +1,32 @@
+a,.b{
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+
+
+a::before{
+    content: '\2764';
+    position: absolute;
+    color: #bebebe;
+    
+    
+    
+}
+
+.b:before{
+    content: '\2764';
+    position: absolute;
+    color: red;
+
+}
+
+.count__like{
+    margin-left: 20px;
+}
+
+.block__main{
+    margin: 0 auto;
+    width: 200px;
+}
