@@ -1,9 +1,9 @@
 <?php
 
 define('HOST', 'localhost');
-define('NAMEDB', 'cy86747_likes');
-define('NAME', 'cy86747_likes');
-define('PASSWORD', 'Mypassword21388');
+define('NAMEDB', 's');
+define('NAME', '');
+define('PASSWORD', '');
 
 
 $pdo = new PDO('mysql:host='.HOST.';dbname='.NAMEDB, NAME, PASSWORD);
